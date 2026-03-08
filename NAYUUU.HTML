@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PARMARNARENDRA</title>
+
+<style>
+h1{
+color:skyblue;
+font-size:45px;
+}
+
+ol{
+font-size:30px;
+}
+
+h2{
+color:red;
+background-color:navy;
+}
+
+p{
+color:purple;
+font-size:36px;
+font-family:tahoma;
+text-align:center;
+padding:10px;
+}
+
+body{
+background-color:teal;
+}
+
+table{
+font-size:25px;
+text-align:center;
+margin:auto;
+}
+</style>
+
+<script>
+let name="nayuuu";
+const clg="I K CHAVDA GRAMVIDHYAPITH KAHANVADI";
+
+console.log(name);
+console.log(clg);
+
+let age=18;
+
+if(age>=18){
+console.log("welcome " + name);
+}
+else{
+console.log("not 18");
+}
+
+function greet(){
+let name=document.getElementById("username").value;
+document.getElementById("msg").innerHTML="Welcome " + name;
+}
+</script>
+
+</head>
+
+<body>
+
+<h1>NARENDRA PARMAR</h1>
+
+<h2>SHRI I K CHAVDA GRAM VIDHYAPITH KAHANVADI</h2>
+
+<h3>BRS First Year</h3>
+
+<br>
+
+<p>
+My name is <b>Narendra</b>
+<hr>
+<i>I am living in Thasra Jalanagar. I am 18 years old. I study in <u>BRS College</u></i>
+<br><br>
+H<sub>2</sub>O
+</p>
+
+<p>Do not <strong>smoking.</strong></p>
+
+<p>This Product Price: Rs <del>5000</del> <mark>2500</mark></p>
+
+<ol>
+<li>Cricket</li>
+<li>Football</li>
+<li>Music</li>
+</ol>
+
+<ol type="i">
+<li>Cricket</li>
+<li>Football</li>
+<li>Music</li>
+</ol>
+
+<a href="https://google.com" target="_blank">Visit Google</a>
+
+<p>My name is <a href="https://google.com" target="_blank">Narendra</a></p>
+
+<table border="2">
+<tr>
+<th>Roll Number</th>
+<th>Name</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Narendra</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Nayuu</td>
+</tr>
+</table>
+
+<br><br>
+
+<form>
+
+<label>Username</label>
+<input type="text" id="username">
+
+<br><br>
+
+<label>Password</label>
+<input type="password" id="password">
+
+<br><br>
+
+<h1 id="msg"></h1>
+
+<button type="button" onclick="greet()">SUBMIT</button>
+
+</form>
+
+
+<img src="image.jfif">
+</body>
+</html>
